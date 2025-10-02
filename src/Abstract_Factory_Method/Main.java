@@ -16,6 +16,8 @@ public class Main {
         chair.sit();
         sofa.lieOn();
 
+
+
         factory = new VictorianFurnitureFactory();
 
         chair = factory.createChair();
