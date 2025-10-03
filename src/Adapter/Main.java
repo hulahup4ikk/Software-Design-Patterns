@@ -6,7 +6,7 @@ public class Main {
 
         MonitorWithHDMI monitorWithHDMI = new AdapterComputerWithVGAToMonitorWithHDMI();
 
-        monitorWithHDMI.outputVideo();
+        monitorWithHDMI.receiveHdmiSignal();
 
     }
 }
