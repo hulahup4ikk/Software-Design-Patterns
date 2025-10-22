@@ -1,4 +1,4 @@
-package Decorator;
+package Second_Half.Decorator;
 
 public class EmptyBarbell implements ISportsEquipment {
     @Override

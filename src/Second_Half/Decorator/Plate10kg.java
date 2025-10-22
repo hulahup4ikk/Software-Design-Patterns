@@ -1,4 +1,4 @@
-package Decorator;
+package Second_Half.Decorator;
 
 public class Plate10kg extends SportsEquipmentDecorator {
     public Plate10kg(ISportsEquipment sports_equipment) {
