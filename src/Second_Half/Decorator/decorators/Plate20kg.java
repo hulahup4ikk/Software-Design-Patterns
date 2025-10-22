@@ -1,4 +1,6 @@
-package Second_Half.Decorator;
+package Second_Half.Decorator.decorators;
+
+import Second_Half.Decorator.core.ISportsEquipment;
 
 public class Plate20kg extends SportsEquipmentDecorator {
     public Plate20kg(ISportsEquipment sports_equipment) {

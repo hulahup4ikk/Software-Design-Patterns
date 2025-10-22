@@ -1,4 +1,6 @@
-package Second_Half.Decorator;
+package Second_Half.Decorator.decorators;
+
+import Second_Half.Decorator.core.ISportsEquipment;
 
 public abstract class SportsEquipmentDecorator implements ISportsEquipment {
     protected ISportsEquipment sports_equipment;

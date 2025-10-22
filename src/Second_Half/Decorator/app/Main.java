@@ -1,4 +1,10 @@
-package Second_Half.Decorator;
+package Second_Half.Decorator.app;
+
+import Second_Half.Decorator.core.EmptyBarbell;
+import Second_Half.Decorator.core.EmptyDumbbell;
+import Second_Half.Decorator.core.ISportsEquipment;
+import Second_Half.Decorator.decorators.Plate10kg;
+import Second_Half.Decorator.decorators.Plate5kg;
 
 public class Main {
     public static void main(String[] args) {

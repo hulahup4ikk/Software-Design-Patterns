@@ -12,7 +12,7 @@ public class Main {
         Lights lights = new Lights();
 
         HomeTheaterFacade home = new HomeTheaterFacade(tv, sound, lights);
-        home.setCurrentMovie("Inception");
+        home.setCurrentMovie("Avatar");
         home.watchMovie();
         printState(home);
         System.out.println("--------------------------------");
@@ -27,7 +27,7 @@ public class Main {
 
         String movie = home.getCurrentMovie();
         System.out.println("Current movie: " + (movie == null ? "None" : movie));
-        System.out.println("TV -> powered: " + tv.isPoweredOn() + ", channel: " + tv.getChannel() + ", volume: " + tv.getVolume());
+        System.out.println("TV -> powered: " + tv.isPoweredOn() + ", channel: " + tv.getChannel());
         System.out.println("Sound -> powered: " + sound.isPoweredOn() + ", mode: " + sound.getMode() + ", volume: " + sound.getVolume());
         System.out.println("Lights -> powered: " + lights.isPoweredOn() + ", brightness: " + lights.getBrightness());
     }

@@ -3,12 +3,10 @@ package Second_Half.Facade_assignment.Devices;
 public class TV implements IDevice {
     private boolean poweredOn;
     private int channel;
-    private int volume;
 
     public TV() {
         this.poweredOn = false;
         this.channel = 1;
-        this.volume = 25;
     }
 
     @Override
@@ -38,13 +36,5 @@ public class TV implements IDevice {
             throw new IllegalArgumentException("Channel number must be positive");
         }
         this.channel = channel;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = Math.max(0, Math.min(volume, 100));
     }
 }

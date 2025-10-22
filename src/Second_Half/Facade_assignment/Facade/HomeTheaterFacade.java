@@ -24,12 +24,12 @@ public class HomeTheaterFacade {
 
         tv.on();
         tv.setChannel(1);
-        tv.setVolume(30);
 
         sound.on();
         sound.setMode("Surround");
         sound.setVolume(65);
     }
+
 
     public void endMovie() {
         System.out.println("Shutting down home theater...");
