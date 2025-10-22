@@ -1,13 +1,13 @@
-package Second_Half.Facade_assignment.Facade;
+package Second_Half.temp.Facade_assignment.Facade;
 
-import Second_Half.Facade_assignment.Devices.Lights;
-import Second_Half.Facade_assignment.Devices.SoundSystem;
-import Second_Half.Facade_assignment.Devices.TV;
+import Second_Half.temp.Facade_assignment.Devices.Lights;
+import Second_Half.temp.Facade_assignment.Devices.SoundSystem;
+import Second_Half.temp.Facade_assignment.Devices.TV;
 
 public class HomeTheaterFacade {
-    private final TV tv;
-    private final SoundSystem sound;
-    private final Lights lights;
+    private TV tv;
+    private SoundSystem sound;
+    private Lights lights;
     private String currentMovie;
 
     public HomeTheaterFacade(TV tv, SoundSystem sound, Lights lights) {
@@ -45,12 +45,24 @@ public class HomeTheaterFacade {
         return tv;
     }
 
+    public void setTv(TV tv) {
+        this.tv = tv;
+    }
+
     public SoundSystem getSound() {
         return sound;
     }
 
+    public void setSound(SoundSystem sound) {
+        this.sound = sound;
+    }
+
     public Lights getLights() {
         return lights;
+    }
+
+    public void setLights(Lights lights) {
+        this.lights = lights;
     }
 
     public String getCurrentMovie() {

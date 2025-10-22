@@ -1,4 +1,4 @@
-package Second_Half.Facade_assignment.Devices;;
+package Second_Half.temp.Facade_assignment.Devices;
 
 public class Lights implements IDevice {
     private boolean poweredOn;
@@ -8,7 +8,6 @@ public class Lights implements IDevice {
         this.poweredOn = false;
         this.brightness = 100;
     }
-
     @Override
     public void on() {
         setPoweredOn(true);
