@@ -7,11 +7,8 @@ import Second_Half.Facade_assignment.Facade.HomeTheaterFacade;
 
 public class Main {
     public static void main(String[] args) {
-        TV tv = new TV();
-        SoundSystem sound = new SoundSystem();
-        Lights lights = new Lights();
 
-        HomeTheaterFacade home = new HomeTheaterFacade(tv, sound, lights);
+        HomeTheaterFacade home = new HomeTheaterFacade();
         home.setCurrentMovie("Avatar");
         home.watchMovie();
         printState(home);

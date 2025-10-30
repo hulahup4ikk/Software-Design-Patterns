@@ -5,17 +5,11 @@ import Second_Half.Facade_assignment.Devices.SoundSystem;
 import Second_Half.Facade_assignment.Devices.TV;
 
 public class HomeTheaterFacade {
-    private final TV tv;
-    private final SoundSystem sound;
-    private final Lights lights;
+    private final TV tv = new TV();
+    private final SoundSystem sound = new SoundSystem();
+    private final Lights lights = new Lights();
     private String currentMovie;
 
-    public HomeTheaterFacade(TV tv, SoundSystem sound, Lights lights) {
-        this.tv = tv;
-        this.sound = sound;
-        this.lights = lights;
-        this.currentMovie = null;
-    }
 
     public void watchMovie() {
         System.out.println("Preparing to watch a movie: " + getCurrentMovieDescription());
