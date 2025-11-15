@@ -15,6 +15,6 @@ public class Main {
         );
 
         InsuranceMessagingVisitor visitor = new InsuranceMessagingVisitor();
-        visitor.sendInsuranceMails(clients);
+        visitor.sendInsuranceMails(clients);//aaa
     }
 }
