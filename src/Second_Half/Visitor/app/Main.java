@@ -1,7 +1,7 @@
 package Second_Half.Visitor.app;
 
 import Second_Half.Visitor.domain.*;
-import Second_Half.Visitor.visitors.InsuranceMessagingVisitor;
+import Second_Half.Visitor.visitor.InsuranceMessagingVisitor;
 
 import java.util.List;
 
